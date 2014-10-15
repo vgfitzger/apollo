@@ -1,0 +1,35 @@
+".container": {
+	backgroundColor:"white"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+"#Title": {
+	font: {
+		fontSize: 12
+	},
+	top: '30dp'
+}
+
+"#Microphone" : {
+	bottom: '120dp',
+	borderRadius:50,
+	height: '100dp',
+	width: '100dp',
+	backgroundColor: '#ddd',
+	opacity: '.9',
+}
+"#MicrophoneIcon" : {
+	height: "90dp",
+	bottom:"5dp",
+	width: "90dp"
+}
+"#MicroAI" : {
+	style: Ti.UI.iPhone.ActivityIndicatorStyle.BIG,
+	height: '90dp',
+	width: "90dp"
+}

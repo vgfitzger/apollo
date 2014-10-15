@@ -1,0 +1,93 @@
+<h1>Utterance    <a href="http://www.appcelerator.com/titanium/"><img alt="Titanium" src="http://www-static.appcelerator.com/badges/titanium-git-badge-sq.png" /></a></h1>
+<p>Utterance lets you use your device's native Text to Speech and Speech to Text capabilities in your Titanium projects.</p>
+<p>See the Android example video <a href="http://youtu.be/Nlrp7L2eeJs">here</a></p>
+<h2>Before you start</h2>
+
+<ul>
+<li>You need Titanium SDK 3.2.1.GA or greater</li>
+<li>If using iOS, you need iOS 7 or greater</li>
+<li>If using Android, you need Android 4 or greater</li>
+<li>Before using this module you first need to install the package. If you need instructions on how to install a 3rd party module please read this installation guide.</li>
+</ul>
+<h2>Download the compiled release</h2>
+
+<p>Download the platform you wish to use:</p>
+<ul>
+<li><a href="https://github.com/benbahrenburg/Utterance/tree/master/ios/dist">iOS Dist</a></li>
+<li><a href="https://github.com/benbahrenburg/Utterance/tree/master/android/dist">Android Dist</a></li>
+<li>Install from gitTio    <a href="http://gitt.io/component/bencoding.utterance"><img alt="gitTio" src="http://gitt.io/badge.png" /></a></li>
+</ul>
+<h2>Building from source?</h2>
+
+<p>If you are building from source you will need to do the following:</p>
+<p>Import the project into Xcode:</p>
+<ul>
+<li>Modify the titanium.xcconfig file with the path to your Titanium installation</li>
+</ul>
+<p>Import the project into Eclipse:</p>
+<ul>
+<li>Update the .classpath</li>
+<li>Update the build properties</li>
+</ul>
+<h2>Setup</h2>
+
+<ul>
+<li>Download the latest release from the releases folder ( or you can build it yourself )</li>
+<li>Install the Utterance module. If you need help here is a "How To" <a href="https://wiki.appcelerator.org/display/guides/Configuring+Apps+to+Use+Modules">guide</a>. </li>
+<li>You can now use the module via the commonJS require method, example shown below.</li>
+</ul>
+<h2>Importing the module using require</h2>
+
+<pre><code>
+var utterance = require('bencoding.utterance');
+</code></pre>
+
+<h2>Text to Speech</h2>
+
+<p>Supported Platforms :  iOS | Android</p>
+<p>The Speech proxy provides Text to Speech capabilities using the device's native platform Text To Speech Engine.</p>
+<p>To learn more about Text to Speech please read the documentation:</p>
+<ul>
+<li><a href="https://github.com/benbahrenburg/Utterance/tree/master/android/documentation/tts.md">Android</a></li>
+<li><a href="https://github.com/benbahrenburg/Utterance/tree/master/ios/documentation/tts.md">iOS</a></li>
+</ul>
+<h2>Speech To Text</h2>
+
+<p>Supported Platforms :  Android</p>
+<p>The SpeechToText proxy provides Speech to Text capabilities using the device's native platform speech recognizer.</p>
+<p>To learn more about Speech to Text please read the documentation:</p>
+<ul>
+<li><a href="https://github.com/benbahrenburg/Utterance/tree/master/android/documentation/stt.md">Android</a></li>
+</ul>
+<h2>Learn More</h2>
+
+<h3>Examples</h3>
+
+<p>Please check the module's example folder :</p>
+<ul>
+<li><a href="https://github.com/benbahrenburg/Utterance/tree/master/ios/example">iOS</a></li>
+<li><a href="https://github.com/benbahrenburg/Utterance/tree/master/android/example">Android</a></li>
+</ul>
+<h3>Credits</h3>
+
+<p>The language detection snippet is from <a href="https://github.com/ericrwolfe">Eric Wolfe's</a> contribution to <a href="https://github.com/kgn/Hark">Hark</a></p>
+<h3>Twitter</h3>
+
+<p>Please consider following the <a href="http://www.twitter.com/benCoding">@benCoding Twitter</a> for updates 
+and more about Titanium.</p>
+<h3>Blog</h3>
+
+<p>For module updates, Titanium tutorials and more please check out my blog at <a href="http://bencoding.com">bencoding.com</a>.</p>
+<h2>License</h2>
+
+<p>Utterance is available under the Apache 2.0 license.</p>
+<p>Copyright 2014 Benjamin Bahrenburg</p>
+<p>Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at</p>
+<p>http://www.apache.org/licenses/LICENSE-2.0</p>
+<p>Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.</p>

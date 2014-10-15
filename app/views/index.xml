@@ -1,0 +1,16 @@
+<Alloy>
+	<Window class="container">
+		<View id="Title">
+			<Label id="Question">Ask Ehow Anything!</Label>			
+		</View>
+		<TextField id="SearchField">How To...</TextField>
+		<Button id="Microphone">
+			<ImageView image="micron.png" id="MicrophoneIcon" ></ImageView>
+			<ActivityIndicator id="MicroAI" message=""/>
+		</Button>
+	</Window>
+	<Window id="Article">
+		<View id="MainImage"></View>
+		<View id="ContentHolder"></View>
+	</Window>
+</Alloy>

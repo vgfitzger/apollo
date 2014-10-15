@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>ehow.answered</id>
+    <name>eHow Answered</name>
+    <version>1.0</version>
+    <publisher>vincentfitzgerald</publisher>
+    <url>http://ehow.com</url>
+    <description>undefined</description>
+    <copyright>2014 by vincentfitzgerald</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>eb5b27a1-8c5c-4713-8bb7-0398cccfdabc</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <property name="ATTaccessKey">wpg5s4ss3agus2y5twm0g3mcajnltiap</property>
+    <property name="ATTsecretKey">keqzviimuaieka1qytl75ohlnkwqp0ke</property>
+    <property name="ATTscope">SPEECH,STTC,TTS</property>
+    <modules>
+    <module platform="android">ti.api.att</module>
+    <module platform="commonjs">att</module>
+    <module platform="iphone">ti.api.att</module>
+    <module platform="android">bencoding.utterance</module>
+    <module platform="iphone">bencoding.utterance</module>
+  </modules>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+        <target device="ipad">false</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+    </deployment-targets>
+    <sdk-version>3.4.0.v20140916181713</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+</ti:app>
