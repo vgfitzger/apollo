@@ -1,14 +1,14 @@
-# Project Name
+# Apollo
 
-TODO: Write a project description
+A prototype of a hands free spoken question and answering app.
 
 ## Installation
 
-TODO: Describe the installation process
+Follow instructions from Titanium Appcelerator
 
 ## Usage
 
-TODO: Write usage instructions
+Just hit the microphone button and speak your question.
 
 ## Contributing
 
@@ -18,14 +18,3 @@ TODO: Write usage instructions
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## History
-
-TODO: Write history
-
-## Credits
-
-TODO: Write credits
-
-## License
-
-TODO: Write license
